@@ -16,7 +16,9 @@ class SearchBox extends Component {
               value={this.props.text}
               placeholder="Enter Your Task Here"/>
               <div className="button">
-              <button type="button"
+              <button 
+              onClick={this.props.handlesumit}
+              type="button"
               className="btn btn-primary m-2"
               >TODO</button> 
               </div>
